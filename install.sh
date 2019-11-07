@@ -7,13 +7,17 @@ ver_phys=HEAD
 ver_xios=HEAD
 ver_ioipsl=HEAD
 ##############
-
+### CONFIG ###
+#ver_dyn=687
+#ver_phys=1911
+#ver_xios=1459
+#ver_ioipsl=302
 ###############
 #### CONFIG ###
-#ver_dyn=687 # ICOSAGCM
-#ver_phys=1911 # ARCH ICOSA_LMDZ LMDZ.COMMON LMDZ.GENERIC
-#ver_xios=1459 # XIOS
-#ver_ioipsl=302 # IOIPSL
+ver_dyn=756 # ICOSAGCM
+ver_phys=HEAD # ARCH ICOSA_LMDZ LMDZ.COMMON LMDZ.GENERIC
+ver_xios=1583 # XIOS
+ver_ioipsl=HEAD # IOIPSL
 ###############
 
 rm -rf code
