@@ -17,6 +17,13 @@ install code
 cd dynamico-giant
 ./install.sh
 ```
+Update of datadir on Ciclad only
+```bash
+cd saturn
+rm datadir
+ln -s /data/gmilcareck/DATAGENERIC datadir
+cd ..
+```
 
 compile code
 ```bash
