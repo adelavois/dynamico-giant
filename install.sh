@@ -17,7 +17,7 @@ ver_ioipsl=HEAD
 ###############
 
 rm -rf code
-svn co -q -N http://svn.lmd.jussieu.fr/Planeto/trunk code
+svn co -q -N https://svn.lmd.jussieu.fr/Planeto/trunk code
 
 cd code
 
