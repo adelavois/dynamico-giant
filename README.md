@@ -17,12 +17,21 @@ install code
 cd dynamico-giant
 ./install.sh
 ```
-Update of datadir on Ciclad only
+On Ciclad only
+- Update of datadir
 ```bash
 cd saturn
 rm datadir
 ln -s /data/gmilcareck/DATAGENERIC datadir
 cd ..
+```
+- change in compile_occigen script (if compile_ciclad.sh is not available)
+```bash
+cd code/LMDZ.COMMON/arch
+ln -s arch-CICLADifort.fcm arch-ifort_CICLAD.fcm
++
+change arch name to ifort_CICLAD (instead of X64_OCCIGEN)
+cd ../../
 ```
 
 compile code
